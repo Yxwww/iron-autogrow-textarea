@@ -56,6 +56,7 @@ Polymer({
       .mirror-text {
         visibility: hidden;
         word-wrap: break-word;
+        margin-right: 1em;
         @apply --iron-autogrow-textarea;
       }
 
