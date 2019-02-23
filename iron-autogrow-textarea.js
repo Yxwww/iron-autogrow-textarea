@@ -325,6 +325,7 @@ Polymer({
                                                .replace(/'/gm, '&#39;')
                                                .replace(/</gm, '&lt;')
                                                .replace(/>/gm, '&gt;')
+                                               .replace(/ /gm, '&#160;')
                                                .split('\n') :
                                            [''];
     return this._constrain(this.tokens);
